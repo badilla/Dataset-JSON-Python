@@ -4,7 +4,9 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
 import pandas as pd
-import pyreadstat
+import pyreadstat._readstat_parser
+import pyreadstat._readstat_writer
+import pyreadstat.worker
 import saxonche
 import datetime
 import time
